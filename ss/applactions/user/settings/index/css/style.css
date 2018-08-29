@@ -1,0 +1,200 @@
+/************************** css reset *********************************/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 { font-size: .64rem; font-weight: bold; padding: .2rem 0 0 0; line-height: .36rem;}
+
+h2 { font-size: .48rem; font-weight: bold; padding: .23rem 0 0 0; line-height: .36rem;}
+
+h3 { font-size: .32rem; font-weight: bold; padding: .265rem 0 0 0; line-height: .36rem;}
+
+h4 { font-size: .28rem; font-weight: bold; padding: .28rem 0 0 0; line-height: .36rem;}
+
+h5 { font-size: .24rem; font-weight: bold; padding: .3rem 0 0 0; line-height: .36rem;}
+
+h6 { font-size: .20rem; font-weight: bold; padding: .3rem 0 0 0; line-height: .36rem;}
+
+
+a:link {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+input {
+    outline: none;
+    border:none;
+}
+
+
+
+
+/************************* global_style *******************************/
+
+.flt {
+    float: left;
+}
+
+.frt {
+    float: right;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.txtr {
+    text-align: right;
+}
+
+
+
+
+/************************* static_style *******************************/
+.content-wrapper {
+    display: block;
+    width: 100%;
+    height: 99.99vh;
+    overflow: hidden;
+    padding-bottom: .8rem;
+    background-color: #f9f9f9;
+}
+
+
+
+.return-header {
+    width: 100%;
+    height: .9rem;
+    font-size: .4rem;
+    line-height: .9rem;
+    background-color: #fff;
+    border-bottom: solid .01rem #e8e8e8;
+}
+
+.return-header p {
+    margin-left: 2.9rem;
+}
+
+
+.btn-return img {
+    width: .21rem;
+    height: .37rem;
+    vertical-align: -.05rem;
+    margin-left: .5rem;
+}
+
+
+
+
+
+
+
+
+
+/************************* user_style *******************************/
+
+
+.user-list {
+
+}
+
+.user-list .avatar-item {
+    height: 2.2rem;
+    line-height: 2.2rem;
+    
+}
+
+.user-list .avatar-item .avatar {
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-top: .05rem;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+
+.user-list li {
+    padding: .26rem 0;
+    line-height: .36rem;
+    border-bottom: solid .01rem #e8e8e8;
+
+}
+
+.user-items {
+    margin-bottom: .2rem;
+    padding-bottom: .01rem;
+    background-color: #fff;
+}
+
+.user-items li span {
+    font-size: .28rem;
+    line-height: .40rem;
+    margin: 0 .2rem;
+    vertical-align: 0;
+    color: #666;
+}
+
+.user-items li .next {
+    width: .14rem;
+    height: .25rem;
+    margin-top: .08rem;
+    margin-right: .24rem;
+}
+
+.btn-user {
+    width: 80%;
+    padding: .2rem 1.2rem;
+    margin: .2rem auto;
+    margin-bottom: .3rem;
+    color: #fff;
+    text-align: center;
+    background-color: #ff2832;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar
+{
+    width: 0;
+    height: 0;
+}
+
+::-o-scrollbar
+{
+    width: 0;
+    height: 0;
+}
+
+::-moz-scrollbar
+{
+    width: 0;
+    height: 0;
+}
+
+::-ms-scrollbar
+{
+    width: 0;
+    height: 0;
+}

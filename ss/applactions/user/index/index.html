@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>个人中心</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <script>(function (doc, win) {var docEl = doc.documentElement;var resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';var recalc = function () {var clientWidth;var clientHeight = docEl.clientHeight;var clientWidth =docEl.clientWidth>750?750:docEl.clientWidth<=320?320:docEl.clientWidth;if (!clientWidth) return;docEl.style.fontSize = (clientWidth / 750 * 100).toFixed(2) +"px";};recalc();if (!doc.addEventListener) return;win.addEventListener(resizeEvt, recalc, false);})(document, window);</script>
+</head>
+<body>
+
+<!--头部-->
+<section class="set-topbar clearfix">
+    <a href="../settings/index/index.html" class="pull-left set">
+        <img src="images/set.png" alt="" class="img-responsive"/>
+    </a>
+    <a href="" class="message pull-right">
+        <img src="images/message.png" alt="" class="img-responsive"/>
+    </a>
+    <p class="clearfix"></p>
+    <div class="infor por clearfix">
+        <img src="images/icon.png" alt="" class="img"/>
+        <div class="user-img pull-left">
+            <img src="images/u.png" alt=""/>
+        </div>
+        <span class="pull-left user-name">zhousudk</span>
+
+        <p class="clearfix"></p>
+
+        <ul class="ul clearfix">
+            <li>
+                <h4>0.00</h4>
+                <p>余额</p>
+            </li>
+            <li>
+                <h4>0.00</h4>
+                <p>爱珠</p>
+            </li>
+            <li>
+                <h4>
+                    <img src="images/bag.png" alt=""/>
+                </h4>
+                <p>我的钱包</p>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!--我的订单-->
+<section class="order center-block">
+    <h3><a href="../order/index/index.html" class="pull-right">查看更多</a><span>我的订单</span></h3>
+    <div class="list-group clearfix">
+        <a href="../order/payment/index.html">代付款</a><a href="../order/evaluation/index.html">待评价</a><a href="../order/received/index.html">待收货</a><a href="../order/returned/index.html">退换货</a>
+    </div>
+</section>
+
+<!--必备工具-->
+<section class="tools center-block">
+    <h3><span>必备工具</span></h3>
+    <div class="list-group clearfix">
+        <a href="">
+            <img src="images/tools-0.png" alt=""/>
+            <p>我的爱珠</p>
+        </a>
+        <a href="">
+            <img src="images/tools-1.png" alt=""/>
+            <p>我的分享</p>
+        </a>
+        <a href="">
+            <img src="images/tools-2.png" alt=""/>
+            <p>我的分享</p>
+        </a>
+        <a href="">
+            <img src="images/tools-3.png" alt=""/>
+            <p>浏览记录</p>
+        </a>
+        <a href="">
+            <img src="images/tools-4.png" alt=""/>
+            <p>我的关注</p>
+        </a>
+        <a href="">
+            <img src="images/tools-5.png" alt=""/>
+            <p>我的分润</p>
+        </a>
+        <a href="">
+            <img src="images/tools-6.png" alt=""/>
+            <p>代理信息</p>
+        </a>
+    </div>
+</section>
+
+
+<!--footer-->
+<section class="footer-menu">
+    <a href="../../index/index/index.html">首页</a><a href="../../list/index/index.html">分类</a><a href="../../shopcart/index/index.html">购物车 <em>3</em></a><a href="../../user/index/index.html"  class="on">我的</a>
+</section>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,358 @@
+/************************** css reset *********************************/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 { font-size: .64rem; font-weight: bold; padding: .2rem 0 0 0; line-height: .36rem;}
+
+h2 { font-size: .48rem; font-weight: bold; padding: .23rem 0 0 0; line-height: .36rem;}
+
+h3 { font-size: .32rem; font-weight: bold; padding: .265rem 0 0 0; line-height: .36rem;}
+
+h4 { font-size: .28rem; font-weight: bold; padding: .28rem 0 0 0; line-height: .36rem;}
+
+h5 { font-size: .24rem; font-weight: bold; padding: .3rem 0 0 0; line-height: .36rem;}
+
+h6 { font-size: .20rem; font-weight: bold; padding: .3rem 0 0 0; line-height: .36rem;}
+
+
+a:link {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+input {
+    outline: none;
+    border:none;
+}
+
+
+
+
+/************************* global_style *******************************/
+
+.flt {
+    float: left;
+}
+
+.frt {
+    float: right;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-33 {
+    width: 33.333333%;
+}
+
+.txtr {
+    text-align: right;
+}
+
+
+
+
+/************************* static_style *******************************/
+.content-wrapper {
+    display: block;
+    width: 100%;
+    height: 99vh;
+    overflow: hidden;
+    padding-bottom: .8rem;
+    background-color: #f9f9f9;
+}
+
+
+
+.return-header {
+    width: 100%;
+    height: .9rem;
+    font-size: .32rem;
+    line-height: .85rem;
+    background-color: #fff;
+    border-bottom: solid .01rem #e8e8e8;
+}
+
+.return-header ul {
+    margin-left: 2.2rem;
+}
+
+.return-header ul li {
+    float: left;
+    padding: 0 .2rem;
+}
+
+.return-header ul .active {
+    color: #ff2832;
+    border-bottom: solid .04rem #ff2832;
+}
+
+.btn-return img {
+    width: .21rem;
+    height: .37rem;
+    margin-left: .3rem;
+    vertical-align: -.08rem;
+    
+}
+
+.btn-share {
+    margin-right: .24rem;
+}
+
+.btn-share img {
+    width: .54rem;
+    height: .54rem;
+}
+
+
+
+
+
+
+
+/************************* goods_style *******************************/
+
+
+.goods-list {
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    margin-bottom: -.81rem;
+}
+
+.goods-list .avatar-item {
+    height: 2.2rem;
+    line-height: 2.2rem;
+    
+}
+
+.goods-list .avatar-item .avatar {
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-top: .05rem;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+
+.goods-list li {
+    padding: .26rem 0;
+    line-height: .36rem;
+    border-bottom: solid .01rem #e8e8e8;
+
+}
+
+.goods-items {
+    margin-bottom: .2rem;
+    padding-bottom: .01rem;
+    background-color: #fff;
+}
+
+.goods-items li span {
+    font-size: .28rem;
+    line-height: .40rem;
+    margin: 0 .2rem;
+    vertical-align: 0;
+    color: #666;
+}
+
+.goods-items li .next {
+    width: .14rem;
+    height: .25rem;
+    margin-top: .08rem;
+    margin-right: .24rem;
+}
+
+.btn-goods {
+    width: 80%;
+    padding: .2rem 1.2rem;
+    margin: .2rem auto;
+    margin-bottom: .3rem;
+    color: #fff;
+    text-align: center;
+    background-color: #ff2832;
+}
+
+.goods-img {
+    position: relative;
+    height: 9.8rem;
+    padding-bottom: .6rem;
+    margin-bottom: .4rem;
+    background-color: #fff;
+}
+
+.goods-img img {
+    display: block;
+    width: 100%;
+    height: 7rem;
+}
+
+.goods-img p {
+    padding: .4rem;
+    font-size: .3rem;
+    line-height: .48rem;
+    border-top: solid .01rem #e8e8e8;
+}
+
+
+.goods-img span {
+    margin-left: .4rem;
+    font-size: .4rem;
+    color: #ff2832;
+}
+
+.goods-tui {
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.goods-tui dl {
+    width: 16rem;
+}
+
+.goods-items dl dd {
+    float: left;
+    margin-left: .2rem;
+    width: 2rem;
+}
+
+
+.goods-items dl dd .image {
+    width: 2rem;
+    height: 2rem;
+    border: solid 1px #000;
+}
+
+.goods-items dl dd .image img {
+    width: 100%;
+}
+
+.goods-items dl dd p {
+    display: -webkit-box;
+    margin-top: .2rem;
+    font-size: .14rem;
+    color: #888;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+.goods-items dl dd .price {
+    color: #ff2832;
+    font-size: .28rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+.footer-menu {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    height:1rem;
+    margin-top: -.9rem;
+    box-shadow: 0 -2px 14px 2px rgba(0, 0, 0, .1);
+    background-color: #fff;
+}
+
+
+.footer-menu div {
+    padding-top: .03rem;
+    height: .9rem;
+    text-align: center;
+    line-height: .9rem;
+}
+
+.footer-menu div img {
+    height: .8rem;
+}
+
+.footer-menu .shopcart {
+    height: 1rem;
+    background-color: #ff2832;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar
+{
+    width: 0;
+    height: 0;
+}
+
+::-o-scrollbar
+{
+    width: 0;
+    height: 0;
+}
+
+::-moz-scrollbar
+{
+    width: 0;
+    height: 0;
+}
+
+::-ms-scrollbar
+{
+    width: 0;
+    height: 0;
+}

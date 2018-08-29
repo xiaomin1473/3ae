@@ -1,0 +1,490 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+
+        <title>预售app</title>
+
+
+
+        <script>
+                
+            (function (doc, win) {
+                var docEl = doc.documentElement,
+                        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                        recalc = function () {
+                            var clientWidth = docEl.clientWidth;
+                            if (!clientWidth) return;
+                            if(clientWidth>=750){
+                                docEl.style.fontSize = '100px';
+                            }else{
+                                docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                            }
+                        };
+
+                if (!doc.addEventListener) return;
+                win.addEventListener(resizeEvt, recalc, false);
+                doc.addEventListener('DOMContentLoaded', recalc, false);
+            })(document, window);
+
+        </script>
+        <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+        <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+        <!--[if lt IE 9]>
+            <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+            <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        
+    </head>
+
+    <body>
+        <div class="app-wrapper w-750">
+            <section class="header-top">
+                <a href="" class="sao pull-left">扫一扫</a>
+                <a href="" class="message pull-right"><span class="por">消息</span><em></em></a>
+                <div class="state-search">
+                    <input type="text" placeholder="游戏本  高配">
+                    <a href="" class="search-btn"></a>
+                </div>
+            </section>
+            <!-- 轮播 -->
+            <section class="slide-wrapper">
+                <ul class="slide">
+                    <li><img src="img/slide.jpg"/></li>
+                    <li><img src="img/slide.jpg"/></li>
+                    <li><img src="img/slide.jpg"/></li>
+                    <!-- 第一张轮播图 -->
+                    <li><img src="img/slide.jpg"/></li>
+                </ul>
+                <ul class="circle">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </section>
+
+            <section class="btn-items">
+                <ul class="clearfix">
+                    <li><a href="##"><img src="img/btn/fupinjuanzeng.png" alt="手拉手扶贫专区">
+                        <p>扶贫捐赠</p>
+                    </a></li>
+                    <li><a href="##"><img  src="img/btn/jingdongzhiying.png" alt="京东直营">
+                        <p>京东直营</p>
+                    </a></li>
+                    <li><a href="##"><img  src="img/btn/nvshenkong.png" alt="女神控">
+                        <p>女神控</p>
+                    </a></li>
+                    <li><a href="##"><img  src="img/btn/chaonanfan.png" alt="潮男范">
+                        <p>扶贫捐赠</p>
+                    </a></li>
+                    <li><a href="##"><img  src="img/btn/guoyaodajiankang.png" alt="国药健康">
+                        <p>国药健康</p>
+                    </a></li>
+                    <li><a href="##"><img  src="img/btn/dajiadian.png" alt="大家电">
+                        <p>大家电</p>
+                    </a></li>
+                    <li><a href="##"><img  src="img/btn/shumakeji.png" alt="数码科技">
+                        <p>数码科技</p>
+                    </a></li>
+                    <li><a href="##"><img  src="img/btn/huodong.png" alt="活动">
+                        <p>活动</p>
+                    </a></li>
+                    <li><a href="##"><img  src="img/btn/liangyoufushi.png" alt="粮油副食">
+                        <p>粮油副食</p>
+                    </a></li>
+                    <li><a href="##"><img  src="img/btn/xiuxianshipin.png" alt="休闲食品">
+                        <p>休闲食品</p>
+                    </a></li>
+                </ul>
+            </section>
+
+            <section class="zixun clearfix">
+                <img class="flt" src="img/yuegouzixun.png" alt="悦购资讯">
+                <p class="flt">迪奥彩妆正式入驻，关注品牌赢首发限定礼包！</p>
+            </section>
+
+            <section class="open">
+                <img src="img/banner_pinpaishengyan.png" alt="狂欢开启，家电聚惠">
+            </section>
+            <section class="super-price clearfix">
+                <div class="more frt">更多<img class=" frt" src="img/icon/more.png"></div>
+                <div class="title"><img src="img/pinpaishengyan.png" alt="超值品牌盛宴"></div>
+                <div class="super-items-wrapper">
+                    <ul class="super-items clearfix">
+                        <li><a href="">
+                            <img src="img/tubiao2.png" alt="商品">
+                            <img class="baokuan" src="img/button_baokuan.png" alt="爆款"> 
+                            <p>￥14.14</p>
+                        </a></li>
+                        <li><a href="">
+                            <img src="img/tubiao2.png" alt="商品">
+                            <img class="baokuan" src="img/button_baokuan.png" alt="爆款"> 
+                            <p>￥14.14</p>
+                        </a></li>
+                        <li><a href="">
+                            <img src="img/tubiao2.png" alt="商品">
+                            <img class="baokuan" src="img/button_baokuan.png" alt="爆款"> 
+                            <p>￥14.14</p>
+                        </a></li>
+                        <li><a href="">
+                            <img src="img/tubiao2.png" alt="商品">
+                            <img class="baokuan" src="img/button_baokuan.png" alt="爆款"> 
+                            <p>￥14.14</p>
+                        </a></li>
+                        <li><a href="">
+                            <img src="img/tubiao2.png" alt="商品">
+                            <img class="baokuan" src="img/button_baokuan.png" alt="爆款"> 
+                            <p>￥14.14</p>
+                        </a></li>
+                        <li><a href="">
+                            <img src="img/tubiao2.png" alt="商品">
+                            <img class="baokuan" src="img/button_baokuan.png" alt="爆款"> 
+                            <p>￥14.14</p>
+                        </a></li>
+                        <li><a href="">
+                            <img src="img/tubiao2.png" alt="商品">
+                            <img class="baokuan" src="img/button_baokuan.png" alt="爆款"> 
+                            <p>￥14.14</p>
+                        </a></li>
+                        <li><a href="">
+                            <img src="img/tubiao2.png" alt="商品">
+                            <img class="baokuan" src="img/button_baokuan.png" alt="爆款"> 
+                            <p>￥14.14</p>
+                        </a></li>
+                        <li><a href="">
+                            <img src="img/tubiao2.png" alt="商品">
+                            <img class="baokuan" src="img/button_baokuan.png" alt="爆款"> 
+                            <p>￥14.14</p>
+                        </a></li>
+                        <li><a href="">
+                            <img src="img/tubiao2.png" alt="商品">
+                            <img class="baokuan" src="img/button_baokuan.png" alt="爆款"> 
+                            <p>￥14.14</p>
+                        </a></li>
+                        <li><a href="">
+                            <img src="img/tubiao2.png" alt="商品">
+                            <img class="baokuan" src="img/button_baokuan.png" alt="爆款"> 
+                            <p>￥14.14</p>
+                        </a></li>
+                        <li><a href="">
+                            <img src="img/tubiao2.png" alt="商品">
+                            <img class="baokuan" src="img/button_baokuan.png" alt="爆款"> 
+                            <p>￥14.14</p>
+                        </a></li>
+                        <li><a href="">
+                            <img src="img/tubiao2.png" alt="商品">
+                            <img class="baokuan" src="img/button_baokuan.png" alt="爆款"> 
+                            <p>￥14.14</p>
+                        </a></li>
+                        <li><a href="">
+                            <img src="img/tubiao2.png" alt="商品">
+                            <img class="baokuan" src="img/button_baokuan.png" alt="爆款"> 
+                            <p>￥14.14</p>
+                        </a></li>
+                        <li><a href="">
+                            <img src="img/tubiao2.png" alt="商品">
+                            <img class="baokuan" src="img/button_baokuan.png" alt="爆款"> 
+                            <p>￥14.14</p>
+                        </a></li>
+                        <li><a href="">
+                            <img src="img/tubiao2.png" alt="商品">
+                            <img class="baokuan" src="img/button_baokuan.png" alt="爆款"> 
+                            <p>￥14.14</p>
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="goods-items clearfix">
+                    <div class="w-50"><img src="img/chaojipinpaishengyan_faxianhaohuo.png" style="height: 2.42rem; width:3.76rem" alt="发现好货"></div>
+                    <div class="w-25"><img src="img/chaojipinpaishengyan_aixiansheng.png" style="height: 2.42rem; width: 1.85rem"  alt="发现好货"></div>
+                    <div class="w-25"><img src="img/chaojipinpaisheyang_guojihaigou.png" style="height: 2.42rem; width: 1.85rem"  alt="发现好货"></div>
+                </div>
+                <div class="goods-items clearfix">
+                    <div class="w-50"><img src="img/chaojipinpaishengyan_biqiang.png" style="height: 2.42rem; width:3.76rem" alt="发现好货"></div>
+                    <div class="w-25"><img src="img/chaojipinpaishengyuan_jingpinchaodian.png" style="height: 2.42rem; width: 1.85rem"  alt="发现好货"></div>
+                    <div class="w-25"><img src="img/chaojipinpaishenyuan_tesetuijian.png" style="height: 2.42rem; width: 1.85rem"  alt="发现好货"></div>
+                </div>
+            </section>
+            <section class="divider"></section>
+
+            <div class="floor-wrapper">
+                <section class="floor">
+                    <div class="title"><img src="img/jingdongzhiying_mark.png" style="width: 2.81rem;" alt="京东直营"></div>
+                    <img src="img/jingdongzhiying_banner.png" style="width: 100%;">
+                    <div class="goods-items clearfix">
+                        <div class="w-50"><img src="img/jingdong_faxianhaohuo.png" style="height: 2.5rem; width:3.73rem" alt="发现好货"></div>
+                        <div class="w-50"><img src="img/jingdong_jiadencifang.png" style="height: 2.5rem; width:3.74rem" alt="发现好货"></div>                        
+                    </div>
+                    <div class="goods-items clearfix">
+                        <div class="w-25"><img src="img/jingdong_jingdongteji.png" style="height: 2.5rem; width: 1.86rem"  alt="发现好货"></div>
+                        <div class="w-25"><img src="img/jingdong_renqibang.png" style="height: 2.5rem; width: 1.85rem"  alt="发现好货"></div>
+                        <div class="w-25"><img src="img/jingdong_tehuizhuanchang.png" style="height: 2.5rem; width: 1.87rem"  alt="发现好货"></div>
+                        <div class="w-25"><img src="img/jingdong_waimaoxiehui.png" style="height: 2.5rem; width: 1.87rem"  alt="发现好货"></div>
+                    </div>
+                </section>
+
+                <section class="floor">
+                    <div class="title"><img src="img/shuma_mark.png" style="width: 2.81rem;" alt="京东直营"></div>
+                    <img src="img/shuma_banner.png" style="width: 100%;">
+                    <div class="goods-items clearfix">
+                        <div class="w-50"><img src="img/shuma_youhaohuo.png" style="height: 2.5rem; width:3.73rem" alt="发现好货"></div>
+                        <div class="w-50"><img src="img/shuma_kejiqianyan.png" style="height: 2.5rem; width:3.74rem" alt="发现好货"></div>                        
+                    </div>
+                    <div class="goods-items clearfix">
+
+                        <div class="w-25"><img src="img/shuma_pinzhishenghuo.png" style="height: 2.5rem; width: 1.86rem"  alt="发现好货"></div>
+                        <div class="w-25"><img src="img/shuma_jiadiariyong.png" style="height: 2.5rem; width: 1.85rem"  alt="发现好货"></div>
+                        <div class="w-25"><img src="img/shuma_sheyingkong.png" style="height: 2.5rem; width: 1.87rem"  alt="发现好货"></div>
+                        <div class="w-25"><img src="img/shuma_zhinengshenghuo.png" style="height: 2.5rem; width: 1.87rem"  alt="发现好货"></div>
+                    </div>
+                </section>
+
+                <section class="floor">
+                    <div class="title"><img src="img/fushi_mark.png" style="width: 2.81rem;" alt="京东直营"></div>
+                    <img src="img/fushi_banner.png" style="width: 100%;">
+                    <div class="goods-items clearfix">
+                        <div class="w-50"><img src="img/fushi_jumingpin.png" style="height: 2.5rem; width:3.73rem" alt="发现好货"></div>
+                        <div class="w-50"><img src="img/fushi_feichangdapai.png" style="height: 2.5rem; width:3.74rem" alt="发现好货"></div>                        
+                    </div>
+                    <div class="goods-items clearfix">
+                        <div class="w-25"><img src="img/fushi_taiyangyanjing.png" style="height: 2.5rem; width: 1.86rem"  alt="发现好货"></div>
+                        <div class="w-25"><img src="img/fushi_pinpaibaobao.png" style="height: 2.5rem; width: 1.85rem"  alt="发现好货"></div>
+                        <div class="w-25"><img src="img/fushi_shishangmeixie.png" style="height: 2.5rem; width: 1.87rem"  alt="发现好货"></div>
+                        <div class="w-25"><img src="img/fushi_jiajufushi.png" style="height: 2.5rem; width: 1.87rem"  alt="发现好货"></div>
+                    </div>
+                </section>
+
+                <section class="floor">
+                    <div class="title"><img src="img/muying_mark.png" style="width: 2.81rem;" alt="京东直营"></div>
+                    <img src="img/muying_banner.png" style="width: 100%;">
+                    <div class="goods-items clearfix">
+                        <div class="w-50"><img src="img/muying_mamanibiepao.png" style="height: 2.5rem; width:3.73rem" alt="发现好货"></div>
+                        <div class="w-50"><img src="img/muying_muyingshenghuoguan.png" style="height: 2.5rem; width:3.74rem" alt="发现好货"></div>                        
+                    </div>
+                    <div class="goods-items clearfix">
+                        <div class="w-25"><img src="img/muying_wanjukong.png" style="height: 2.5rem; width: 1.86rem"  alt="发现好货"></div>
+                        <div class="w-25"><img src="img/muying_yizhitushu.png" style="height: 2.5rem; width: 1.85rem"  alt="发现好货"></div>
+                        <div class="w-25"><img src="img/muying_menggongchang.png" style="height: 2.5rem; width: 1.87rem"  alt="发现好货"></div>
+                        <div class="w-25"><img src="img/muying_chaobaobuluo.png" style="height: 2.5rem; width: 1.87rem"  alt="发现好货"></div>
+                    </div>
+                </section>
+            </div>
+            <section class="tuijian">
+                <div class="title"><img src="img/weinituijian.png" style="height: .4rem; width: 3.46rem"></div>
+                <ul class="tuijian-items clearfix">
+                    <li><a href="##">
+                        <img src="img/test_1.jpg" alt="商品">
+                        <P><img src="img/hot.png" style="height: .26rem; width: .77rem" alt="hot">运动鞋女款2017春季新款百搭内增高休闲鞋跑步</P>
+                        <span class="price">￥178 <img src="img/ziying.png" style="height: .27rem; width: .43rem" alt="自营"><img src="img/jingdong.png" style="margin-left: .12rem;height: .26rem; width: .26rem" alt="自营"><img src="img/icon/more_2.png" style="float:right; margin-right: .2rem;height: .22rem; width: .47rem" alt="更多"></span>
+                    </a></li>
+                    <li><a href="##">
+                        <img src="img/test_1.jpg" alt="商品">
+                        <P><img src="img/hot.png" style="height: .26rem; width: .77rem" alt="hot">运动鞋女款2017春季新款百搭内增高休闲鞋跑步</P>
+                        <span class="price">￥178 <img src="img/ziying.png" style="height: .27rem; width: .43rem" alt="自营"><img src="img/jingdong.png" style="margin-left: .12rem;height: .26rem; width: .26rem" alt="自营"><img src="img/icon/more_2.png" style="float:right; margin-right: .2rem;height: .22rem; width: .47rem" alt="更多"></span>
+                    </a></li>
+                    <li><a href="##">
+                        <img src="img/test_1.jpg" alt="商品">
+                        <P><img src="img/hot.png" style="height: .26rem; width: .77rem" alt="hot">运动鞋女款2017春季新款百搭内增高休闲鞋跑步</P>
+                        <span class="price">￥178 <img src="img/ziying.png" style="height: .27rem; width: .43rem" alt="自营"><img src="img/jingdong.png" style="margin-left: .12rem;height: .26rem; width: .26rem" alt="自营"><img src="img/icon/more_2.png" style="float:right; margin-right: .2rem;height: .22rem; width: .47rem" alt="更多"></span>
+                    </a></li>
+                    <li><a href="##">
+                        <img src="img/test_1.jpg" alt="商品">
+                        <P><img src="img/hot.png" style="height: .26rem; width: .77rem" alt="hot">运动鞋女款2017春季新款百搭内增高休闲鞋跑步</P>
+                        <span class="price">￥178 <img src="img/ziying.png" style="height: .27rem; width: .43rem" alt="自营"><img src="img/jingdong.png" style="margin-left: .12rem;height: .26rem; width: .26rem" alt="自营"><img src="img/icon/more_2.png" style="float:right; margin-right: .2rem;height: .22rem; width: .47rem" alt="更多"></span>
+                    </a></li>
+                    <li><a href="##">
+                        <img src="img/test_1.jpg" alt="商品">
+                        <P><img src="img/hot.png" style="height: .26rem; width: .77rem" alt="hot">运动鞋女款2017春季新款百搭内增高休闲鞋跑步</P>
+                        <span class="price">￥178 <img src="img/ziying.png" style="height: .27rem; width: .43rem" alt="自营"><img src="img/jingdong.png" style="margin-left: .12rem;height: .26rem; width: .26rem" alt="自营"><img src="img/icon/more_2.png" style="float:right; margin-right: .2rem;height: .22rem; width: .47rem" alt="更多"></span>
+                    </a></li>
+                    <li><a href="##">
+                        <img src="img/test_1.jpg" alt="商品">
+                        <P><img src="img/hot.png" style="height: .26rem; width: .77rem" alt="hot">运动鞋女款2017春季新款百搭内增高休闲鞋跑步</P>
+                        <span class="price">￥178 <img src="img/ziying.png" style="height: .27rem; width: .43rem" alt="自营"><img src="img/jingdong.png" style="margin-left: .12rem;height: .26rem; width: .26rem" alt="自营"><img src="img/icon/more_2.png" style="float:right; margin-right: .2rem;height: .22rem; width: .47rem" alt="更多"></span>
+                    </a></li>
+                    <li><a href="##">
+                        <img src="img/test_1.jpg" alt="商品">
+                        <P><img src="img/hot.png" style="height: .26rem; width: .77rem" alt="hot">运动鞋女款2017春季新款百搭内增高休闲鞋跑步</P>
+                        <span class="price">￥178 <img src="img/ziying.png" style="height: .27rem; width: .43rem" alt="自营"><img src="img/jingdong.png" style="margin-left: .12rem;height: .26rem; width: .26rem" alt="自营"><img src="img/icon/more_2.png" style="float:right; margin-right: .2rem;height: .22rem; width: .47rem" alt="更多"></span>
+                    </a></li>
+                    <li><a href="##">
+                        <img src="img/test_1.jpg" alt="商品">
+                        <P><img src="img/hot.png" style="height: .26rem; width: .77rem" alt="hot">运动鞋女款2017春季新款百搭内增高休闲鞋跑步</P>
+                        <span class="price">￥178 <img src="img/ziying.png" style="height: .27rem; width: .43rem" alt="自营"><img src="img/jingdong.png" style="margin-left: .12rem;height: .26rem; width: .26rem" alt="自营"><img src="img/icon/more_2.png" style="float:right; margin-right: .2rem;height: .22rem; width: .47rem" alt="更多"></span>
+                    </a></li>
+                </ul>
+            </section>
+
+        </div>
+        <footer>
+            <ul class="footer-bar">
+                <li class="index" id="index"><a href="../../index/index/index.html"><div class="normal active"></div></a></li>
+                <li class="branch" id="branch"><a href="../../list/index/index.html"><div class="normal"></div></a></li>
+                <li class="shopcart" id="shopcart"><a href="../../shopcart/index/index.html"><div class="normal"></div></a></li>
+                <li class="my" id="my"><a href="../../user/index/index.html"><div class="normal"></div></a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
+
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<script>
+    //定时器
+    var timer=null;
+    var timer1=null;
+    //当前li下标num
+// num是是ul当前的left值除以li的宽度得到的一个数字
+    var num=0;
+//  计算newLeft
+    var intoNum=0;
+    var cirNum=0;
+    //li的宽度
+    var liWidth=7.5;
+    //定义全局对象
+    var scrollMethods={
+        //判断是pc还是wap
+        IsPC:function()
+        {
+        // flag是true就是pc，false就是移动端
+            var userAgentInfo = navigator.userAgent;
+            var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");
+            var flag = true;
+            for (var v = 0; v < Agents.length; v++) {
+                if (userAgentInfo.indexOf(Agents[v]) > 0) { flag = false; break; }
+            }
+            return flag;
+        },
+        //滑动函数
+        scrollTo: function(X){
+            //左滑
+            if ( X > 0 ) {
+                var nowLeft=parseFloat($(".slide").css("left"));
+                num=Math.abs(Math.floor(nowLeft/$(".slide li").width()));
+                if(num<=0||num>=3){
+                    return false;
+                }
+                intoNum=num-1;
+                cirNum=num-1;
+
+                var newLeft=-intoNum*liWidth+"rem";
+                $(".slide").animate({"left":newLeft},500);
+                $(".circle li").eq(cirNum).addClass("active").siblings(".active").removeClass("active");
+            }
+            //右滑
+            else if ( X < 0 ) {
+                var nowLeft=parseFloat($(".slide").css("left"));
+                num=Math.abs(Math.floor(nowLeft/$(".slide li").width()));
+                intoNum=num+1;
+                cirNum=num+1;
+                if(num==3){
+                    $(".slide").css("left",0);
+                    intoNum=1;
+                    cirNum=1;
+                    var newLeft=-liWidth+"rem";
+                    $(".slide").animate({"left":newLeft},500);
+                    $(".circle li").eq(cirNum).addClass("active").siblings(".active").removeClass("active");
+                    return;
+                }
+                if(num==2){
+                    intoNum=2;
+                    return false;
+                }
+                var newLeft=-intoNum*liWidth+"rem";
+                $(".slide").animate({"left":newLeft},500);
+                $(".circle li").eq(cirNum).addClass("active").siblings(".active").removeClass("active");
+            }
+            else{
+                return false;
+            }
+        },
+        init:function(){
+            clearInterval(timer);
+            clearInterval(timer1);
+            timer=setInterval(function(){
+                intoNum++;
+                if(intoNum>3){
+                    intoNum=1;
+                    $(".slide").css("left",0);
+                }
+                $(".slide").animate({"left":-intoNum*liWidth+"rem"},1000);
+            },4000);
+            timer1=setInterval(function(){
+                cirNum++;
+                if(cirNum>2){
+                    cirNum=0;
+                }
+                $(".circle li").eq(cirNum).addClass("active").siblings(".active").removeClass("active");
+            },4000)
+        },
+        //阻止默认事件
+        cancle:function(e){
+            // 判断默认行为是否可以被禁用
+            if (e.cancelable) {
+                // 判断默认行为是否已经被禁用
+                if (!e.defaultPrevented) {
+                    e.preventDefault();
+                }
+            }
+        }
+    }
+    scrollMethods.init();
+    //如果是移动设备
+    if(!scrollMethods.IsPC()){
+        $("body").on("touchstart", function(e) {
+    //touch事件获取手指坐标的X值
+            startX = e.originalEvent.changedTouches[0].pageX;
+            clearInterval(timer);
+            clearInterval(timer1);
+        });
+        $("slide").on("touchend", function(e) {
+
+            moveEndX = e.originalEvent.changedTouches[0].pageX;
+            X = moveEndX - startX;
+            scrollMethods.scrollTo(X);
+            scrollMethods.init()
+        });
+    }else{
+        //如果是PC
+        $("body").on("mousedown",function(e){
+            scrollMethods.cancle(e);
+            statX= e.pageX;
+            clearInterval(timer);
+            clearInterval(timer1);
+        })
+        $("body").on("mouseup",function(e){
+            scrollMethods.cancle(e);
+            endX= e.pageX;
+            X=endX-statX;
+            scrollMethods.scrollTo(X);
+            scrollMethods.init()
+        })
+    };
+
+
+
+    $(function(){
+    $("footer-bar li").click(function() {
+        $(this).siblings('li div').removeClass('active');                       // 删除其他兄弟元素的样式
+        $(this).find('div').addClass('active');                            // 添加当前元素的样式
+    });
+});
+
+</script>
